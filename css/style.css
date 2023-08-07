@@ -1,0 +1,425 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*body*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+}
+
+.main_container {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #ffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Main content section*/
+
+.main_contest_section {
+    padding: 600px;
+}
+
+.main_content_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+/* About me section*/
+
+.about-me-section {
+    margin-bottom: 60;
+}
+
+.about-me-profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about-me-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about-me-description {
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: darkslategray;
+}
+
+
+/*My projects section*/
+
+.my_project_section {
+    padding: 10px;
+    color: darkcyan;
+}
+
+.my-projects-item {
+    color: black;
+    font-weight: bold;
+}
+
+.my-projects-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+.my-projects-link:hover {
+    color: red;
+    opacity: 1;
+}
+
+.my-projects-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 5px;
+    color: black;
+}
+
+.my-projects-bracket {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: orangered;
+}
+
+
+/*My work experiance*/
+
+.my-work-experience-company {
+    color: orangered;
+}
+
+.my-work-experience-pasition {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+
+.my-work-experience-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: lightslategray;
+    margin: 0 0 10px 0;
+}
+
+.my-work-experience-divader {
+    color: #000000;
+}
+
+.my-work-experience-duties {
+    padding: 0 0 0 18px;
+}
+
+.my-work-experience-duty {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: darkslategray;
+}
+
+.my-work-experience-company-blok {
+    margin: 0 15px 0 0;
+}
+
+
+/*My education*/
+
+.my-university {
+    color: orangered;
+    ;
+}
+
+.my-profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.my-university-period {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: lightslategray;
+}
+
+.my-university-period-divared {
+    color: #000000;
+}
+
+
+/* sidebar section */
+
+.sidebar_section {
+    background-color: darkcyan;
+    width: 30%;
+    padding: 20px
+}
+
+.picture {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contacts_section,
+.tech_skill_section,
+.soft_skills_section,
+.languages_section {
+    margin: 10px;
+}
+
+.sidebar_title {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: blanchedalmond;
+    margin-bottom: 10px;
+}
+
+
+/* contacts section */
+
+.contacts_section_type {
+    font: 14px/1.7;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 7px;
+}
+
+.contacts_section_link {
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.contacts_section_link:hover {
+    color: orangered;
+}
+
+.Tech-skill-item-text:hover {
+    color: orangered;
+}
+
+.Soft-scills-item-text:hover {
+    color: orangered;
+}
+
+.Languages-scills-item-text:hover {
+    color: orangered;
+}
+
+
+/* Tech scills & soft scills*/
+
+.Soft-scills-list,
+.Languages-scills-list,
+.Tech-skill-list {
+    padding: 10px 0 0 17px;
+}
+
+.Sadebar_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.Tech-skill-item,
+.Soft-scills-item,
+.Languages-scills-item {
+    color: orangered;
+}
+
+.Tech-skill-item-text,
+.Soft-scills-item-text,
+.Languages-scills-item-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.main-contest-section {
+    background-color: lightgrey;
+    width: 66%;
+    padding: 20px;
+}
