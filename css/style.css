@@ -423,3 +423,11 @@ body {
     width: 66%;
     padding: 20px;
 }
+
+.description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: darkslategray;
+}
